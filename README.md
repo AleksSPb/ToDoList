@@ -5,3 +5,4 @@
 ------------
 * Степулёнок Денис Олегович - super.denis@gmail.com
 * Громов Илья Анварович - igromovbox@gmail.com
+* Пархоменко Александр - paraleksi@gmail.com
