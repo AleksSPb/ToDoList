@@ -44,6 +44,11 @@ public class Task {
     private Date createDate;
 
     /**
+     * Список кого нужно оповестить о окончании задачи (подзадачи)
+     */
+    List<Contact> advertisingPersons = new ArrayList<>();
+
+    /**
      * Пункты задачи (подзадачи)
      */
     List<Task> subTasks = new ArrayList<>();
