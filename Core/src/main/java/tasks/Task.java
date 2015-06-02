@@ -98,6 +98,7 @@ public class Task {
      */
     List<String> tags = new ArrayList<>();
 
+    public Task() {name="Empty task name";}
     public Task(String name) {
         this.name = name;
     }
