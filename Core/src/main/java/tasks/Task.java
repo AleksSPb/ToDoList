@@ -11,6 +11,46 @@ import java.util.List;
  * Задача: выполяется за один раз
  */
 public class Task {
+    public String getDescription() {
+        return description;
+    }
+
+    public Contact getPerson() {
+        return person;
+    }
+
+    public Date getPlaningDate() {
+        return planingDate;
+    }
+
+    public Date getClosingDate() {
+        return closingDate;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setPerson(Contact person) {
+        this.person = person;
+    }
+
+    public void setPlaningDate(Date planingDate) {
+        this.planingDate = planingDate;
+    }
+
+    public void setClosingDate(Date closingDate) {
+        this.closingDate = closingDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+
     public enum TaskPriority {HIGH, MEDIUM,LOW}
 
     /**
@@ -60,6 +100,24 @@ public class Task {
 
     public Task(String name) {
         this.name = name;
+    }
+
+
+    public Task(String name, String description) {
+        this.name = name;
+        this.description=description;
+    }
+
+    public Task(String name, String description, Contact person) {
+        this.name = name;
+        this.description=description;
+        this.person=person;
+    }
+
+    public Task(String name, String description, Date planingDate) {
+        this.name = name;
+        this.description=description;
+        this.planingDate=planingDate;
     }
 
     public String getName() {
